@@ -1,0 +1,136 @@
+*,::after,::before{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 24px;
+    background-color: white;
+}
+
+
+
+/* content section */
+.contact{
+    background-color:#70c99f;
+    color: rgb(0, 0, 0);
+}
+.a{
+
+    display:inline-block;
+    margin-left: 45px;
+}
+.a li a{
+    color:#000000;
+    background-color: #70c99f;
+    
+}
+.a li a:hover{
+    color: #ffffff;
+}
+
+#Studentlogin{
+    font-size: 120%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#70c99f ;
+    position: absolute;
+    right: 0;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+#Studentlogin:hover{
+    cursor: pointer;
+    background-color: #fafafa;
+}
+li{
+    display: inline-block; 
+    margin-right: 6px;
+}
+@media (max-width:875px) {
+    li{
+        display: block;
+    }
+    .fa-facebook:after{
+        content: " ";
+        
+    }
+    .container{
+        float: center
+;
+    }
+    .menuicon{
+        float: right;
+        margin: 15px;
+    }
+    
+
+
+}
+
+
+
+
+/* navigation section */
+div.nav{
+    font-size: 40%;
+}
+div.container img{
+   width: 80px;
+   margin-left: 45px;
+}
+div.container{
+    margin: 10px;
+    float: left;
+
+}
+div.menu{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 80%;
+}
+
+div.menu a{
+    text-decoration: none;
+    color: #050505;
+}
+div.menu a:hover{
+    color: #999999;
+}
+
+
+
+
+
+/* heading */
+.heading{
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(0, 0, 0);;
+}
+div.bbsbecimage{
+    text-align: center;
+}
+div.bbsbecimage img{
+    width: 90%;
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* heading */
